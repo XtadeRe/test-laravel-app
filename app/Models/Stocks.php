@@ -6,6 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Stocks extends Model
 {
+    public $timestamps = false;
     protected $fillable = [
         'date',
         'last_change_date',

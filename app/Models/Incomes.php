@@ -6,6 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Incomes extends Model
 {
+    public $timestamps = false;
     protected $fillable = [
         'income_id',
         'number',
@@ -19,7 +20,6 @@ class Incomes extends Model
         'date_close',
         'warehouse_name',
         'nm_id',
-        'status',
     ];
 
     protected $casts = [

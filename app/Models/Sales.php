@@ -6,6 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Sales extends Model
 {
+    public $timestamps = false;
     protected $fillable = [
         'g_number',
         'date',
